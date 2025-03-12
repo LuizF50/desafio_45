@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    background-image: url('./images/background.png'); /* Insira o nome correto da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+  }
+  
+  .container {
+    max-width: 800px; /* Define uma largura máxima para o container */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para contraste */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  label {
+    font-size: 1.2em;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button#calcular {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  button#reiniciar {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }
+  
